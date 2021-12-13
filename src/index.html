@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Signature Pad</title>
+    <link rel="stylesheet" href="./lib/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <link rel="stylesheet" href="./index.css">
+  </head>
+  <body>
+    <div id ="app">
+      <canvas id="canvasAssinatura" class="signature-pad" width=780 height=510></canvas>
+    </div>
+    <div class="flex">
+      <button type="button" class="btn btn-default btn-flex" id="buttonClear">Clear</button>
+      <button type="button" class="btn btn-primary btn-flex" id="buttonSave">Save</button>
+    </div>
+  </body>
+  <script src="./lib/signature_pad.min.js"></script>
+  <script src="./script.js"></script>
+</html>
