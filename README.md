@@ -1,6 +1,9 @@
 # Signature-Pad-Desktop
 
 ### Installation
+
+First, install the latest version of Node Javascript.
+
 Terminal: 
 ```
 npm i electron
