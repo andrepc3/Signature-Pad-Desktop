@@ -3,6 +3,7 @@
 ### Installation
 
 First, install the latest version of Node Javascript.
+After that, create a new folder to run these commands:
 
 Terminal: 
 ```
